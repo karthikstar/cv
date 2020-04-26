@@ -1,0 +1,121 @@
+body {
+  color:#40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+/* text-align in the parent container will align everything to the center except those whose width is modified. */
+/* to center those w width need use auto value in margin */
+span{text-decoration: underline;}
+
+.top_container {
+  background-color: #ffb6b9;
+  position: relative;
+  padding-top: 100px
+}
+
+.middle_container {margin: 100px 0;
+
+}
+
+.bottom_container {background-color: #61c0bf;padding:50px 0 20px;margin-top: 50px;
+}
+
+h1 {
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size:5.625rem;
+  color: #61c0bf;
+}
+/* note that 16px = 100% = 1em so 90px equals 562.5%/5.625em or rem. */
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #61c0bf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 1.5rem;
+}
+
+a{color: #11999E;
+  font-family: 'Montserrat', sans-serif;margin: 10px 20px;text-decoration: none;}
+a:hover{color: #EAF6F6}
+
+/* h1,h2{line-height: 2;} */
+/* top right bottom left */
+
+hr {border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+
+
+}
+.top_cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px
+}
+/* means 300px from the bottom of its PARENT CONTAINER Which is the top container */
+
+.profile_circle{height: 200px}
+.intro{width: 30%; margin:auto;}
+
+p{line-height: 2;}
+.skill-row{width: 50%;
+  margin:100px auto;
+text-align: left;}
+
+
+.web_circle{width: 25%; float: left;margin-right: 30px;}
+.data_sci{width: 25%; float: right;margin-left: 30px}
+/* scales down the pictures to 25% width of their parent, aka the skill-row */
+
+.contactmsg{width: 40%;
+margin:40px auto 60px;}
+/* https://colorhunt.co/palette/107482 is the palette for this site.*/
+.btn {
+	background-color:#11cdd4;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:15px;
+  font-style:normal;
+height:39px;
+	line-height:39px;
+width:125px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #2f6627;
+}.btn:hover {
+	background-color:#30e3cb;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
+.fullname{color: #EAF6F6; font-size: 0.75rem;padding: 20px 0px;}
